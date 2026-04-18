@@ -86,3 +86,31 @@ footer {
     font-size: 12px;
     color: gray;
 }
+
+/* 🔥 PERFECT LOGO + TITLE BALANCE */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Logo */
+.logo-img {
+    height: 52px;
+    width: 52px;
+    object-fit: contain;
+}
+
+/* Title */
+.app-title {
+    font-size: 1.45rem;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+}
+
+/* Optional smooth hover */
+.navbar-brand:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
